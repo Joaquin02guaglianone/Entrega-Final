@@ -1,0 +1,13 @@
+@mixin textoBase {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #8fadb8;
+}
+
+.textos {
+    @include textoBase()
+}
+
+a{
+    @include textoBase(font-family, font-family)
+}
